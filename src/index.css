@@ -29,7 +29,7 @@ code {
 
 .main_div{
   background-color: #6983aa;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -41,6 +41,7 @@ code {
 
 .center_div{
   width: 30vw;
+  height: 60vh;
   box-shadow: 4px 4px -4px rgba(0,0,0,0.4);
   color: #8566aa;
   border-color: #6983aa;
@@ -88,6 +89,8 @@ code {
 
 ol{
   margin-top: 32px;
+  max-height: 24vh;
+  overflow: auto;
 }
 
 ol li{
@@ -123,4 +126,41 @@ ol li{
 
 .todolist .fa-times:hover{
   background-color: crimson;
+}
+
+
+
+
+@media(max-width : 1068px){
+
+  .todolist .fa-times{
+    margin: 0 14px 0 14px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .center_div{
+    width: 55%;
+  }
+  .card_div{
+    height: 50vh;
+  }
+
+  button{
+    margin-left: 5px;
+    min-height: 40px;
+    width: 40px;
+    color: #fff;
+    font-size: 30px;
+  }
+}
+
+@media(max-width : 400px){
+  .center_div{
+    width: 80%;
+  }
+  .card_div{
+    height: 55vh;
+  }
+
 }
