@@ -72,7 +72,7 @@ code {
 }
 
 .btnn{
-  min-height: 40px;
+  min-height: 38px;
   width: 40px;
   border-radius: 50%;
   background-color: #8566aa;
@@ -131,7 +131,7 @@ ol li{
 
 
 
-@media(max-width : 1068px){
+@media(max-width : 1068px) and (min-width : 500px){
 
   .todolist .fa-times{
     margin: 0 14px 0 14px ;
@@ -155,7 +155,7 @@ ol li{
   }
 }
 
-@media(max-width : 400px){
+@media(max-width : 500px){
   .center_div{
     width: 80%;
   }
