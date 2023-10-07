@@ -100,3 +100,27 @@ ol li{
   color: #8566aa;
   text-transform: capitalize;
 }
+
+.todolist{
+   display: flex;
+   align-items: center;
+   justify-content: left; 
+   flex-direction: row;
+}
+
+.todolist .fa-times{
+  height: 22px;
+  width: 22px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: #8566aa;
+  color: #fff;
+  margin: 0 14px 0 24px;
+  box-shadow: 4px 4px 14px -5px rgba(0,0,0,0.4);
+}
+
+.todolist .fa-times:hover{
+  background-color: crimson;
+}
